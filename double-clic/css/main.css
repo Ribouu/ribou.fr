@@ -1,0 +1,56 @@
+body {
+    background-color: #010409;
+    color: #c9d1d9;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto, "Helvetica Neue";
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.profile-picture {
+    /* margin-right: 50%;
+    margin-left: 50%; */
+    margin-top: 6%;
+    height: auto;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+textarea {
+    width:500px;
+    height:400px;
+    background: #010409;
+    color:#c9d1d9;
+  }
+.click {
+    margin-left: auto;
+    margin-right: auto;
+    width:25%;
+    height:200px;
+    background:orange;
+    text-align:center;
+    color:#fff;
+    cursor:pointer;
+    font-size:20px;
+  }
+
+footer {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #696969;
+  transition: color 0.5s;
+}
+
+input {
+    font-size: large;
+    border:none;
+    outline-width: 0;
+    border: none;
+    outline-width: 0;
+    background: #010409;
+    color: #c9d1d9;
+}
+#count {
+    color:green;
+}

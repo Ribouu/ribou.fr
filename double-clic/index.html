@@ -1,1 +1,22 @@
-<html></html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Test double-clic de la souris</title>
+    <link rel="icon" href="chat.ico">
+</head>
+<body onmousedown="mouseClick();" oncontextmenu="return false;">
+    <a href="https://www.ribou.fr/"><img src="chat.jpg" alt="profile picture" class="profile-picture"></a>
+    <h1>Est-ce que ma souris fait des double-clics involontaires ?</h1>
+    <p>Voici un script pour vérifier si une souris fait des double-clics involontaires.</p>
+    Clics :  <input id="count" type="text" value="0" size="4" disabled="disabled"> <button id="reset">reset</button><br />
+    Nombre de double-clics involontaires :  <input id="dcCount" type="text" value="0" size="4" disabled="disabled"> <br />
+    (deux clics dans un intervalle de moins de 0.08 secondes)<br />
+    <textarea id="textarea" disabled="disabled"></textarea>
+    <footer>
+        <p>Script créé par blink192</p>
+        <p><a href="https://codepen.io/blink172/pen/vERyxK" target="_blank">Source</a></p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

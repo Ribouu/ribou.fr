@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Raccourcis clavier</title>
+    <link rel="icon" href="chat.ico">
+    <script src=
+        "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+</head>
+<body>
+    <div class="mode">
+        <p class="modetexte">
+        Mode clair : </p><label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+    </div>
+    <a href="https://www.ribou.fr/"><img src="chat.jpg" alt="profile picture" class="profile-picture"></a>
+    <h1 id="les-raccourcis-clavier-les-plus-utiles-selon-moi">Les raccourcis clavier les plus utiles selon moi</h1>
+    <p>Voici une liste des raccourcis clavier que j'utilise le plus.  </p>
+    <h2 id="raccourcis-windows">Raccourcis windows</h2>
+    <p>Liste de raccourcis effectifs sur la majorité des logiciels sur Windows.</p>
+    <table>
+    <thead>
+    <tr>
+    <th>Raccourci clavier</th>
+    <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>CTRL + C</td>
+    <td>Copier (texte, image, ...) </td>
+    </tr>
+    <tr>
+    <td>CTRL + X</td>
+    <td>Couper</td>
+    </tr>
+    <tr>
+    <td>CTRL + V</td>
+    <td>Coller </td>
+    </tr>
+    <tr>
+    <td>CTRL + A</td>
+    <td>Sélectionner tous les éléments </td>
+    </tr>
+    <tr>
+    <td>CTRL + Z</td>
+    <td>Retourner en arrière (undo)</td>
+    </tr>
+    <tr>
+    <td>CTRL + Y</td>
+    <td>Retourner en avant (après un retour arrière)</td>
+    </tr>
+    <tr>
+    <td>CTRL + MAJ + Z</td>
+    <td>Retourner en avant (après un retour arrière)</td>
+    </tr>
+    <tr>
+    <td>CTRL + F</td>
+    <td>Rechercher sur une page (web, pdf...)</td>
+    </tr>
+    <tr>
+    <td>CTRL + S</td>
+    <td>Sauvegarder un document</td>
+    </tr>
+    <tr>
+    <td>CTRL + W</td>
+    <td>Fermer </td>
+    </tr>
+    <tr>
+    <td>CTRL + Flèches gauche ou droite</td>
+    <td>Se déplacer de mots en mots dans un texte</td>
+    </tr>
+    <tr>
+    <td>CTRL + retour arrière</td>
+    <td>Supprimer un mot entier</td>
+    </tr>
+    <tr>
+    <td>ALT + TAB</td>
+    <td>Changer d'application ouverte (garder ALT appuyé pour toutes les voir)</td>
+    </tr>
+    <tr>
+    <td>ALT + MAJ</td>
+    <td>Changer de langue (nécessaire d'avoir téléchargé plusieurs langues)</td>
+    </tr>
+    <tr>
+    <td>WIN + E</td>
+    <td>Ouvrir l'explorateur de fichiers </td>
+    </tr>
+    <tr>
+    <td>WIN + MAJ + S</td>
+    <td>Faire une capture d'écran</td>
+    </tr>
+    <tr>
+    <td>WIN + V</td>
+    <td>Accéder au presse-papier </td>
+    </tr>
+    <tr>
+    <td>WIN + L</td>
+    <td>Verrouiller l'ordinateur</td>
+    </tr>
+    <tr>
+    <td>WIN + D</td>
+    <td>Masquer les fenêtres/Réafficher les fenêtres</td>
+    </tr>
+    </tbody>
+    </table>
+    <h2 id="raccourcis-google-chrome-firefox">Raccourcis Google Chrome/Firefox</h2>
+    <p>Liste de raccourcis effectifs sur Google Chrome et Firefox.</p>
+    <table>
+    <thead>
+    <tr>
+    <th>Raccourci clavier</th>
+    <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+    <td>CTRL + W</td>
+    <td>Fermer un onglet</td>
+    </tr>
+    <tr>
+    <td>ALT + F4</td>
+    <td>Fermer le navigateur</td>
+    </tr>
+    <tr>
+    <td>CTRL + F</td>
+    <td>Chercher un mot-clé sur une page</td>
+    </tr>
+    <tr>
+    <td>CTRL + T</td>
+    <td>Ouvrir un nouvel onglet</td>
+    </tr>
+    <tr>
+    <td>CTRL + MAJ + T</td>
+    <td>Réouvrir un ou des onglets dernièrement fermés</td>
+    </tr>
+    <tr>
+    <td>CTRL + N</td>
+    <td>Ouvrir une nouvelle fenêtre</td>
+    </tr>
+    <tr>
+    <td>CTRL + TAB</td>
+    <td>Accéder à l'onglet ouvert suivant</td>
+    </tr>
+    <tr>
+    <td>CTRL + D</td>
+    <td>Ajouter la page aux favoris</td>
+    </tr>
+    <tr>
+    <td>CTRL + H</td>
+    <td>Accéder à l'historique</td>
+    </tr>
+    </tbody>
+    </table>
+    
+    <script>
+        $( ".slider" ).on("click", function() {
+            if( $( "body" ).hasClass( "light" )) {
+                $( "body" ).removeClass( "light" );
+            } else {
+                $( "body" ).addClass( "light" );
+            }
+        });
+    </script>
+</body>
+</html>
